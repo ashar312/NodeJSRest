@@ -1,5 +1,5 @@
 //dependices
-var port = process.env.PORT || 1000;
+var port = process.env.port || 1000;
 var express = require('express');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
