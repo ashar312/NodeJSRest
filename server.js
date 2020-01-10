@@ -1,4 +1,5 @@
 //dependices
+var port = process.env.port || 1000;
 var express = require('express');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
@@ -12,5 +13,5 @@ app.use(bodyParser.json());
 
 app.use('/api',require('./routes/api'));
 
-app.listen(1000);
+app.listen(port);
 console.log('Server is running on port 3000');
