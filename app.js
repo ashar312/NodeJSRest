@@ -4,7 +4,7 @@ const bodyparser = require('body-parser');
 const moongoose = require('mongoose');
 
 
-const uri = 'mongodb://localhost:300'
+const uri = 'mongodb://localhost:3000'
 const URL = 'mongodb+srv://Ashar:jupitar6@cluster0-9zibs.mongodb.net/test?retryWrites=true&w=majority'
 moongoose.connect(URL,{ useNewUrlParser: true })
 
